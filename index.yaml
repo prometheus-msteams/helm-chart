@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   prometheus-msteams:
   - apiVersion: v1
+    appVersion: v1.3.2
+    created: "2020-02-02T23:32:34.737729+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 2901d2c12de4efd75518fc6140991e7e68440b99dab3ea00550d655771d3f4be
+    name: prometheus-msteams
+    urls:
+    - https://prometheus-msteams.github.io/helm-chart/prometheus-msteams-0.4.3.tgz
+    version: 0.4.3
+  - apiVersion: v1
     appVersion: v1.3.1
-    created: "2020-02-02T18:59:54.722882+01:00"
+    created: "2020-02-02T23:32:34.736753+01:00"
     description: A Helm chart for Kubernetes
     digest: 095493dccd4e1297f991d59708e170c8de9356a221e28f5a0c6f48a637656e15
     name: prometheus-msteams
@@ -12,7 +21,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: v1.3.0
-    created: "2020-02-02T18:59:54.722532+01:00"
+    created: "2020-02-02T23:32:34.735908+01:00"
     description: A Helm chart for Kubernetes
     digest: ae13dd9ecb270c1b0baf21c1d40c2284fffde983d25a8a55155d817b31fdab52
     name: prometheus-msteams
@@ -21,11 +30,11 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: v1.2.1
-    created: "2020-02-02T18:59:54.722156+01:00"
+    created: "2020-02-02T23:32:34.734831+01:00"
     description: A Helm chart for Kubernetes
     digest: feb405381cb4ff43572769f61c4c006cc0c3906844bea4e68aa2f550c2dc3788
     name: prometheus-msteams
     urls:
     - https://prometheus-msteams.github.io/helm-chart/prometheus-msteams-0.4.0.tgz
     version: 0.4.0
-generated: "2020-02-02T18:59:54.721626+01:00"
+generated: "2020-02-02T23:32:34.732115+01:00"

@@ -29,8 +29,8 @@ Create a helm values file to configure your Microsoft Teams channel connectors a
 ---
 replicaCount: 1
 image:
-  repository: bzon/prometheus-msteams
-  tag: v1.3.1
+  repository: quay.io/prometheusmsteams/prometheus-msteams
+  tag: v1.3.2
 connectors:
 - high_priority_channel: https://outlook.office.com/webhook/xxxx/xxxx 
 - low_priority_channel: https://outlook.office.com/webhook/xxxx/xxxx
@@ -52,7 +52,7 @@ metrics:
     scrapeInterval: 30s
 ```
 
-See [Helm Configuration](#helm-configuration) and [App Configuration](https://github.com/bzon/prometheus-msteams#configuration) for reference.
+See [Helm Configuration](#helm-configuration) and [App Configuration](https://github.com/prometheus-msteams/prometheus-msteams#configuration) for reference.
 
 
 ### Deploy to Kubernetes cluster
@@ -88,8 +88,8 @@ Otherwise you can also set the value by specifying the template data directly vi
 
 | Parameter                                  | Description                                                                                                                                                   | Default                                         |
 | ---                                        | ---                                                                                                                                                           | ---                                             |
-| `image.repository`                         | Image repository                                                                                                                                              | `bzon/prometheus-msteams`                       |
-| `image.tag`                                | Image tag                                                                                                                                                     | `v1.3.1`                                        |
+| `image.repository`                         | Image repository                                                                                                                                              | `quay.io/prometheusmsteams/prometheus-msteams`                       |
+| `image.tag`                                | Image tag                                                                                                                                                     | `v1.3.2`                                        |
 | `image.pullPolicy`                         | Image pull policy                                                                                                                                             | `Always`                                        |
 | `extraEnvs`                                | Extra environment variables                                                                                                                                   | `{}`                                            |
 | `connectors`                               | Add your own Microsoft Teams connectors.                                                                                                                      | `{}`                                            |
