@@ -1,5 +1,8 @@
 update: lint package index
 
+sync:
+	rsync -avz ../prometheus-msteams/chart/prometheus-msteams/ ./charts/prometheus-msteams
+
 lint:
 	helm lint ./charts/*
 
