@@ -4,10 +4,10 @@ sync:
 	rsync -avz ../prometheus-msteams/chart/prometheus-msteams/** ./prometheus-msteams/
 
 lint:
-	helm lint ./charts/*
+	helm lint ./prometheus-msteams/
 
 package:
-	helm package ./charts/*
+	helm package ./prometheus-msteams/
 
 index:
 	helm repo index --url https://prometheus-msteams.github.io/helm-chart/ .
