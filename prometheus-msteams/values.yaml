@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: quay.io/prometheusmsteams/prometheus-msteams
-  tag: v1.3.3
+  tag: v1.3.4
   pullPolicy: Always
 
 extraEnvs:
@@ -33,6 +33,8 @@ affinity: {}
 podSecurityContext:
   runAsUser: 1000
   runAsNonRoot: true
+
+priorityClassName: ""
 
 metrics:
   serviceMonitor:
