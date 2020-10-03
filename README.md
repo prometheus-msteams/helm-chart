@@ -1,4 +1,3 @@
-# helm-chart
+# helm-chart - DEPRECATED
 
-The official helm chart of [prometheus-msteams](https://github.com/bzon/prometheus-msteams/).
-
+This repo is deprecated. Follow the official [helm chart deployment instructions](https://github.com/prometheus-msteams/prometheus-msteams/tree/master/chart/prometheus-msteams) instead.
